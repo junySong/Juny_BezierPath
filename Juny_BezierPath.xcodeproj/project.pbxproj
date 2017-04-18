@@ -16,6 +16,7 @@
 		117182101EA5A68100CAFD1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1171820E1EA5A68100CAFD1B /* LaunchScreen.storyboard */; };
 		1171821B1EA5A68100CAFD1B /* Juny_BezierPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1171821A1EA5A68100CAFD1B /* Juny_BezierPathTests.m */; };
 		117182261EA5A68100CAFD1B /* Juny_BezierPathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 117182251EA5A68100CAFD1B /* Juny_BezierPathUITests.m */; };
+		117182351EA5A6FB00CAFD1B /* BeizierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 117182341EA5A6FB00CAFD1B /* BeizierView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		117182211EA5A68100CAFD1B /* Juny_BezierPathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Juny_BezierPathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		117182251EA5A68100CAFD1B /* Juny_BezierPathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Juny_BezierPathUITests.m; sourceTree = "<group>"; };
 		117182271EA5A68100CAFD1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117182331EA5A6FB00CAFD1B /* BeizierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeizierView.h; sourceTree = "<group>"; };
+		117182341EA5A6FB00CAFD1B /* BeizierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeizierView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				117182011EA5A68100CAFD1B /* AppDelegate.m */,
 				117182031EA5A68100CAFD1B /* ViewController.h */,
 				117182041EA5A68100CAFD1B /* ViewController.m */,
+				117182331EA5A6FB00CAFD1B /* BeizierView.h */,
+				117182341EA5A6FB00CAFD1B /* BeizierView.m */,
 				117182061EA5A68100CAFD1B /* Main.storyboard */,
 				1171820C1EA5A68100CAFD1B /* Assets.xcassets */,
 				1171820E1EA5A68100CAFD1B /* LaunchScreen.storyboard */,
@@ -282,6 +287,7 @@
 				117182051EA5A68100CAFD1B /* ViewController.m in Sources */,
 				117182021EA5A68100CAFD1B /* AppDelegate.m in Sources */,
 				117181FF1EA5A68100CAFD1B /* main.m in Sources */,
+				117182351EA5A6FB00CAFD1B /* BeizierView.m in Sources */,
 				1171820B1EA5A68100CAFD1B /* Juny_BezierPath.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
